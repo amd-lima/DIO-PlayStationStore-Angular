@@ -1,0 +1,10 @@
+<div class="home_container">
+  <app-card *ngFor="let item of collection"
+    [gameImg]="item.gameImg"
+    [gameType]="item.gameType"
+    [price]="item.price"
+    [gameLabel]="item.gameLabel"
+    [alt]="item.alt">
+  </app-card>
+</div>
+

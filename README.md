@@ -1,27 +1,44 @@
-# Store
+# 🎮 PlayStation Store Home Page - Angular Project (DIO)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+This is a frontend project developed during a course on [Digital Innovation One (DIO)](https://www.dio.me/), focusing on building a **component-based home page** for the PlayStation Store using **Angular**.
 
-## Development server
+## 📌 Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The goal of this project is to recreate the main structure of the PlayStation Store home page, applying modern frontend practices with **Angular** such as:
 
-## Code scaffolding
+- ✅ Componentization
+- 🔁 Data Binding (Property & Event Binding)
+- 🔧 Custom and Built-in Pipes
+- 🧩 Reusability of UI components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Technologies Used
 
-## Build
+- [Angular 17+](https://angular.io/)
+- TypeScript
+- HTML5 & CSS
+- Angular CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Features
 
-## Running unit tests
+- Modular structure using Angular components
+- Dynamic rendering of data using `*ngFor`
+- Use of built-in pipes like `currency`, and custom pipes for formatting
+- Inputs and Outputs for component communication
+- Reusable card component to display game items
+- Responsive layout with basic styling
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📁 Project Structure
 
-## Running end-to-end tests
+```bash
+src/
+├── app/
+│   ├── components/
+│   │   └── card/             # Reusable CardComponent
+│   ├── pages/
+│   │   └── home/             # Home Page with game collection
+│   ├── models/               # Interfaces for game data
+│   └── app.module.ts
+├── assets/
+│   └── logo.png              # PlayStation logo
+└── index.html
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
