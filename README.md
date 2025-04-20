@@ -42,3 +42,6 @@ src/
 │   └── logo.png              # PlayStation logo
 └── index.html
 
+```
+
+<img src="https://github.com/amd-lima/DIO-PlayStationStore-Angular/blob/main/src/assets/print.png"/>
